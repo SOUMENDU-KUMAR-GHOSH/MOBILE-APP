@@ -1,0 +1,219 @@
+@charset "utf-8";
+*
+{
+	margin:0px;
+	padding:0px;
+}
+#wrap
+{
+	border:1px solid black;
+	height:500px;
+	width:90%;
+	margin:auto;
+	background-color:pink;
+}
+
+
+
+
+
+#header
+{
+	background-color:blue;
+	background-image:url("https://images.all-free-download.com/images/graphicthumb/medical_tablets_01_hd_pictures_168382.jpg");
+	border-top:2px solid blue;
+	border-left:2px solid blue;
+	border-right:2px solid blue;
+	height:150px;
+	font-size:80px;
+	text-align:center;
+}
+
+
+#menu
+{
+	background-color:black;
+	
+	border-left:2px solid blue;
+	border-right:2px solid blue;
+	padding:15px;
+	height:20px;
+}
+
+#menu ul
+{
+	list-style:none;
+}
+
+#menu ul li
+{
+	float:left;
+	color:white;
+	margin:10px;
+	
+	
+}
+
+#mainnews
+{
+	border-left:2px solid blue;
+	border-right:2px solid blue;
+	border-bottom:2px solid blue;
+	width:1816px;
+	height:200px;
+	color:black;
+	margin:auto;
+	background-color:blue;
+	font-weight:bold;
+	font-size:45px;
+	text-align:center;
+	padding:15px;
+	margin-top:0px;
+	background-image:url("https://images.all-free-download.com/images/graphicthumb/medical_tablets_01_hd_pictures_168382.jpg");
+	
+}
+
+
+
+
+#slider1
+{
+	width:1300px;
+	height:250px;
+	border:1px solid red;
+	background-image:url("http://thetoxicfreefoundation.com/images/ingredient-images/Jasmine_500x500.jpg");
+	margin:auto;
+	margin-top:50px;
+	margin-bottom:15px;
+}
+
+
+#mid
+{
+	border:5px solid white;
+	width:1650px;
+	height:179px;
+	color:black;
+	background-color:white;
+	font-size:18px;
+	text-align:justify;
+	padding:15px;
+	margin-top:20px;
+	margin-bottom:25px;
+	margin:auto;
+	
+}
+
+
+
+
+#contact
+{
+	height:28px;
+	width:1720px;
+	text-align:center;
+	padding:15px;
+	background-color:black;
+	font-size:30px;
+	color:white;
+	margin:px;
+	margin-top:10px;
+}
+
+
+
+.slider{
+	overflow:hidden;
+	height:300px:
+}
+
+.slide1{
+	float:left;
+	background-image:url("https://www.newsworldindia.in/public/media_uploads/mediafug8Cipla_Banner.jpg");
+	width:980px;
+	height:300px;
+}
+.slide2{
+	float:left;
+	background-image:url("https://marketexclusive-summit.netdna-ssl.com/wp-content/uploads/2016/09/JJ.jpg");
+	width:1710px;
+	height:300px;
+}
+.slide3{
+	float:left;
+	background-image:url("https://www.industryweek.com/sites/industryweek.com/files/styles/article_featured_retina/public/uploads/2012/07/gsk-logo.jpg?itok=yAG9vEa0");
+	width:1710px;
+	height:300px;
+}
+.slide4{
+	float:left;
+	background-image:url("https://content.indiainfoline.com/_media/iifl/img/misc/2018-09/03/full/sun-pharma-1535945607-55071350.jpg");
+	width:1710px;
+	height:300px;
+}
+
+.slider figure div{
+	width:20%;
+	float:left;
+}
+.slider figure{
+	position:relative;
+	width:500%;
+	margin:0;
+	left:0;
+	animation:30s slidy infinite;
+}
+@keyframes slidy{
+	0%{
+		left:0%;
+	}
+	10%{
+		left:0%;
+	}
+	12%{
+		left:-100%;
+	}
+	22%{
+		left:-100%;
+	}
+	24%{
+		left:-200%;
+	}
+	36%{
+		left:-300%;
+	}
+	46%{
+		left:-300%;
+	}
+	48%{
+		left:-400%;
+	}
+	58%{
+		left:-400%;
+	}
+	60%{
+		left:-300%;
+	}
+	70%{
+		left:-300%;
+	}
+	72%{
+		left:-200%;
+	}
+	82%{
+		left:-200%;
+	}
+	84%{
+		left:-100%;
+	}
+	94%{
+		left:-100%;
+	}
+	96%{
+		left:0%;
+	}
+}
+	
+
+
+	
